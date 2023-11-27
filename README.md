@@ -1,1 +1,1 @@
-# sv-hollow-blocks its a website to purchase blocks for constriction 
+# sv-hollow-blocks its a website to purchase blocks for construction
