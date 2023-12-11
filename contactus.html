@@ -7,5 +7,12 @@
     <li> Koushik Reddy S - Ph: 998649568</li>
  </ul>
       <p>Reach out to us at email: svhollowblock00@gmail.com</p>
-      <a href="#" class="fa fa-whatsapp"></a>
+      <button id="whatsapp-icon" >Chat on Whatsapp</button>
+      <script>
+        document.getElementById('whatsapp-icon').addEventListener('click', function() {
+            var whatsappNumber = '9986493568';
+            var whatsappUrl = 'https://wa.me/91' + whatsappNumber;
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
     </body>
