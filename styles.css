@@ -54,7 +54,7 @@ color: white;
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
   }
@@ -93,5 +93,5 @@ color: white;
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
-  display: none;
+  display: none;
 }
