@@ -23,9 +23,6 @@ body {
     width: 100%;
   }
   
-  body, html {
-    height: 100%;
-  }
   .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bg.jpg");
   height: 100vh;
@@ -54,6 +51,16 @@ body {
       display: block;
     }
   }
+
+  body {
+    font-size:1em;
+  }
+
+  .hero-text
+  {
+    font-size:1.2em;
+  }
+  
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
