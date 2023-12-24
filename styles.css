@@ -87,10 +87,9 @@ color: white;
 
 .hero-logo {
   position: absolute;
-  margin-left: 34%;
-  margin-bottom: auto;
-  top: 50px; /* Adjust as needed */
-  left: 20px; /* Adjust as needed */
-  opacity: 0.5; /* Adjust the opacity value */
-  /* You can set additional properties like width, height, etc. */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50%;
+  opacity: 0.5;
+  width: 50vw;
 }
