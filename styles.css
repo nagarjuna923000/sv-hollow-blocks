@@ -94,5 +94,6 @@ body {
 .hero-text {
   margin-top: 20vh;
  z-index: 2;
- color: white;
+ color: #FFFFFF;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
