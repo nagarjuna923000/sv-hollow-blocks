@@ -106,3 +106,10 @@ body {
     display: none;
   }
   
+  .fab {
+    font-size: 2em;
+}
+
+button {
+    padding: 10px 20px;
+}
