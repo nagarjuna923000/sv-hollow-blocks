@@ -69,31 +69,21 @@ body {
   }
 }
 
-.logo {
- position: absolute;
- top: 0;
- left: 0;
- right: 0;
- bottom: 0;
- z-index: 1;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-.logo img {
- opacity: 1.0;
- margin-top:12rem;
- margin-bottom: 30rem;
- background-size:cover;
- background-repeat: no-repeat;
- width: 15vw;
- max-width: 400px;
-}
 
 .hero-text {
-  margin-top: 20vh;
- z-index: 2;
+  display:grid;
+  place-items:center;
  color: #FFFFFF;
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img
+{
+width:10%;
+}
+
+.logo
+{
+display:grid;
+place-items:center;
 }
