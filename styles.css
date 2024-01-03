@@ -12,14 +12,11 @@ body, html {
 }
 
 .hero-image {
-  background-image: url('images/bg.jpg');
+  background-image: url('images/newbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
   background-position: center center;
-  display: grid;
-  place-items: center;
 }
 
 .topnav {
