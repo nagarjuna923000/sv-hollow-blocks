@@ -11,12 +11,15 @@ body, html {
   height: 100%;
 }
 
-body {
+.hero-image {
   background-image: url('images/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
   background-position: center center;
+  display: grid;
+  place-items: center;
 }
 
 .topnav {
@@ -73,14 +76,14 @@ body {
 .hero-text {
   display:grid;
   place-items:center;
- color: #FFFFFF;
+ color: white;
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  font-size:150%;
 }
 
 img
 {
-width:25%;
+width:100vh;
 }
 
 .logo
